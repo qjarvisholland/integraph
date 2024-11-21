@@ -1,0 +1,788 @@
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:23  column:23  ----[0m
+
+  [1mUse of undeclared Var integraph.core/d[0m
+
+  [36m19[0m  [36m(-> scale[0m
+  [36m20[0m  [36m    (.domain (js-obj 0 (apply max data)))[0m
+  [36m21[0m  [36m    (.range (js-obj 0 300)))[0m
+  [36m22[0m  [36m(js/d3.select "#viz")[0m
+  [33m23[0m  [1m(.selectAll "div")d[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var integraph.core/d[0m
+  [36m24[0m  [36m(.data (clj->js data))[0m
+  [36m25[0m  [36m.enter[0m
+  [36m26[0m  [36m.append "div"[0m
+  [36m27[0m  [36m(.style "width" (fn [d] (str (.scale d) "px")))[0m
+  [36m28[0m  [36m(.text (fn [d] d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.916 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.732 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.438 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.697 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.612 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:34  column:15  ----[0m
+
+  [1mUse of undeclared Var integraph.core/create-visualization[0m
+
+  [36m30[0m  [36m           (. js/document (getElementById "app")))[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn on-js-reload [][0m
+  [36m33[0m  [36m  ;; optionally touch your app-state to force rerendering[0m
+  [33m34[0m  [1m  (rd/render [create-visualization][0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var integraph.core/create-visualization[0m
+  [36m35[0m  [36m             (. js/document (getElementById "viz")))[0m
+  [36m36[0m  [36m  ;; (swap! app-state update-in [:__figwheel_counter] inc)[0m
+  [36m37[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.735 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.238 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:37 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 37, col 2] Unmatched delimiter ).[0m
+
+  [36m35[0m  [36m             (. js/document (getElementById "viz")))[0m
+  [36m36[0m  [36m  ;; (swap! app-state update-in [:__figwheel_counter] inc)[0m
+  [33m37[0m  [1m)[0m
+  [0m  [0m  [33m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 37, col 2] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.732 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.753 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.598 seconds.[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.763 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.738 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.507 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.697 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.729 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.248 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:34 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 34, col 53] Unmatched delimiter ).[0m
+
+  [36m32[0m  [36m                                 (js/console.log "SVG Selection:" svg))[0m
+  [36m33[0m  [36m                                 [(:id node) node])  ; Use string ids directly[0m
+  [33m34[0m  [1m                               (:nodes @app-state)))][0m
+  [0m  [0m  [33m                               /Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 34, col 53] Unmatched delimiter ).[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m    ;; Clear previous SVG elements to avoid duplicate drawings[0m
+  [36m37[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.261 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:34 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 34, col 53] Unmatched delimiter ).[0m
+
+  [36m32[0m  [36m                                 (js/console.log "SVG Selection:" svg))[0m
+  [36m33[0m  [36m                                 [(:id node) node])  ; Use string ids directly[0m
+  [33m34[0m  [1m                               (:nodes @app-state)))][0m
+  [0m  [0m  [33m                               /Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 34, col 53] Unmatched delimiter ).[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m    ;; Clear previous SVG elements to avoid duplicate drawings[0m
+  [36m37[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.263 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:67 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 67, col 33] Unmatched delimiter ).[0m
+
+  [36m65[0m  [36m        (.attr "dy" ".35em")[0m
+  [36m66[0m  [36m        (.style "text-anchor" "middle")[0m
+  [33m67[0m  [1m        (.text (:label node))))))[0m
+  [0m  [0m  [33m        /Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 67, col 33] Unmatched delimiter ).[0m
+  [36m68[0m  [36m[0m
+  [36m69[0m  [36m(rd/render [hello-world][0m
+  [36m70[0m  [36m           (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.633 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.746 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.692 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.242 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:136 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 136, col 1] Unexpected EOF while reading item 17 of list, starting at line 15 and column 1.[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.258 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:59 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 59, col 1] Unexpected EOF while reading item 8 of list, starting at line 15 and column 1.[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.254 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:59 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 59, col 1] Unexpected EOF while reading item 8 of list, starting at line 15 and column 1.[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.3 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:78 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 78, col 1] Unexpected EOF while reading item 7 of list, starting at line 26 and column 1.[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.723 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.607 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.726 seconds.[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:101  column:1  ----[0m
+
+  [1mhello-world at line 20 is being replaced[0m
+
+  [36m 97[0m  [36m                                  {:source "node3" :target "node1"}[0m
+  [36m 98[0m  [36m                                  {:source "node4" :target "node2"}[0m
+  [36m 99[0m  [36m                                  {:source "node5" :target "node1"}]}))[0m
+  [36m100[0m  [36m[0m
+  [33m101[0m  [1m(defn hello-world [][0m
+  [0m   [0m  [33m^--- hello-world at line 20 is being replaced[0m
+  [36m102[0m  [36m  [:div[0m
+  [36m103[0m  [36m   [:h1 (:text @app-state)][0m
+  [36m104[0m  [36m   [:h3 "Edit this and watch it change! Omdg wow so cool!"][0m
+  [36m105[0m  [36m   [:svg {:id "viz" :width 500 :height 300}]])[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:107  column:1  ----[0m
+
+  [1mcreate-visualization at line 26 is being replaced[0m
+
+  [36m103[0m  [36m   [:h1 (:text @app-state)][0m
+  [36m104[0m  [36m   [:h3 "Edit this and watch it change! Omdg wow so cool!"][0m
+  [36m105[0m  [36m   [:svg {:id "viz" :width 500 :height 300}]])[0m
+  [36m106[0m  [36m[0m
+  [33m107[0m  [1m(defn create-visualization [][0m
+  [0m   [0m  [33m^--- create-visualization at line 26 is being replaced[0m
+  [36m108[0m  [36m  (let [svg (js/d3.select "#viz")[0m
+  [36m109[0m  [36m        colors (js/d3.scaleOrdinal js/d3.schemeCategory10)[0m
+  [36m110[0m  [36m        width 500[0m
+  [36m111[0m  [36m        height 300[0m
+  [36m112[0m  [36m        node-map (into {} (map (fn [node] [(:id node) node]) (:nodes @app-state)))][0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:153  column:1  ----[0m
+
+  [1mon-js-reload at line 76 is being replaced[0m
+
+  [36m150[0m  [36m(rd/render [hello-world][0m
+  [36m151[0m  [36m           (. js/document (getElementById "app")))[0m
+  [36m152[0m  [36m[0m
+  [33m153[0m  [1m(defn on-js-reload [][0m
+  [0m   [0m  [33m^--- on-js-reload at line 76 is being replaced[0m
+  [36m154[0m  [36m  ;; Redraw the visualization on reload[0m
+  [36m155[0m  [36m  (create-visualization))[0m
+  [36m156[0m  [36m[0m
+  [36m157[0m  [36m;; Initial call to draw the visualization[0m
+  [36m158[0m  [36m(create-visualization)[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.881 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.773 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.6 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.881 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.758 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.434 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.737 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.853 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.68 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.25 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:94 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 94, col 72] Unmatched delimiter ).[0m
+
+  [36m92[0m  [36m                                     (.attr node "cy" (.-y n))[0m
+  [36m93[0m  [36m                                     (.attr label "x" (.-x n))[0m
+  [33m94[0m  [1m                                     (.attr label "y" (.-y n))))))))))))[0m
+  [0m  [0m  [33m                                     /Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 94, col 72] Unmatched delimiter ).[0m
+  [36m95[0m  [36m[0m
+  [36m96[0m  [36m(defn hello-world [][0m
+  [36m97[0m  [36m  [:div[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.755 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.244 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:108 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 108, col 1] Unexpected EOF while reading item 8 of list, starting at line 20 and column 1.[0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.789 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.898 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.254 seconds.[0m
+[36m----  Could not Read  src/integraph/core.cljs   line:52 ----[0m
+
+  [1m/Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 52, col 36] Unmatched delimiter ).[0m
+
+  [36m50[0m  [36m                .append "circle"[0m
+  [36m51[0m  [36m                .attr "r" 10[0m
+  [33m52[0m  [1m                .attr "fill" "red")][0m
+  [0m  [0m  [33m                /Users/qjarvisholland/Documents/clojurescript/integraph/src/integraph/core.cljs [line 52, col 36] Unmatched delimiter ).[0m
+  [36m53[0m  [36m[0m
+  [36m54[0m  [36m      (.call d3/drag[0m
+  [36m55[0m  [36m             .on "start" (fn [d] [0m
+
+[36m----  Reader Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m31[0m  [36m        nodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mUse of undeclared Var d3/select[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var d3/select[0m
+  [36m31[0m  [36m        nodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:33  column:21  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m29[0m  [36mheight (.-clientHeight graph)[0m
+  [36m30[0m  [36msvg (d3/select "#viz")[0m
+  [36m31[0m  [36mnodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36mlinks (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [33m33[0m  [1msimulation (d3/forceSimulation (clj->js nodes)[0m
+  [0m  [0m  [33m            ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m34[0m  [36m                                (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                        (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:33  column:21  ----[0m
+
+  [1mUse of undeclared Var d3/forceSimulation[0m
+
+  [36m29[0m  [36mheight (.-clientHeight graph)[0m
+  [36m30[0m  [36msvg (d3/select "#viz")[0m
+  [36m31[0m  [36mnodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36mlinks (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [33m33[0m  [1msimulation (d3/forceSimulation (clj->js nodes)[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var d3/forceSimulation[0m
+  [36m34[0m  [36m                                (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                        (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:34  column:57  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m30[0m  [36m        svg (d3/select "#viz")[0m
+  [36m31[0m  [36m        nodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [33m34[0m  [1m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [0m  [0m  [33m                                                        ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:34  column:57  ----[0m
+
+  [1mUse of undeclared Var d3/forceLink[0m
+
+  [36m30[0m  [36m        svg (d3/select "#viz")[0m
+  [36m31[0m  [36m        nodes (map #(js-obj "id" (.-id %) "label" (.-label %)) (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [33m34[0m  [1m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [0m  [0m  [33m                                                        ^--- Use of undeclared Var d3/forceLink[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:36  column:59  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [33m36[0m  [1m                                        (.force "charge" (d3/forceManyBody))[0m
+  [0m  [0m  [33m                                                          ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:36  column:59  ----[0m
+
+  [1mUse of undeclared Var d3/forceManyBody[0m
+
+  [36m32[0m  [36m        links (map #(js-obj "source" (.-source %) "target" (.-target %)) (:edges @app-state))[0m
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [33m36[0m  [1m                                        (.force "charge" (d3/forceManyBody))[0m
+  [0m  [0m  [33m                                                          ^--- Use of undeclared Var d3/forceManyBody[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:37  column:59  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [33m37[0m  [1m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [0m  [0m  [33m                                                          ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+  [36m42[0m  [36m                   (.append "g")[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:37  column:59  ----[0m
+
+  [1mUse of undeclared Var d3/forceCenter[0m
+
+  [36m33[0m  [36m        simulation (d3/forceSimulation (clj->js nodes)[0m
+  [36m34[0m  [36m                                        (.force "link" (d3/forceLink (clj->js links))[0m
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [33m37[0m  [1m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [0m  [0m  [33m                                                          ^--- Use of undeclared Var d3/forceCenter[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m    (d3/selectAll "svg > *").remove()[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+  [36m42[0m  [36m                   (.append "g")[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:39  column:6  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [33m39[0m  [1m    (d3/selectAll "svg > *").remove()[0m
+  [0m  [0m  [33m     ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+  [36m42[0m  [36m                   (.append "g")[0m
+  [36m43[0m  [36m                   (.attr "class" "links")[0m
+  [36m44[0m  [36m                   (.selectAll "line")[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:39  column:6  ----[0m
+
+  [1mUse of undeclared Var d3/selectAll[0m
+
+  [36m35[0m  [36m                                                (.id (fn [d] (.-id d))))[0m
+  [36m36[0m  [36m                                        (.force "charge" (d3/forceManyBody))[0m
+  [36m37[0m  [36m                                        (.force "center" (d3/forceCenter (/ width 2) (/ height 2))))][0m
+  [36m38[0m  [36m[0m
+  [33m39[0m  [1m    (d3/selectAll "svg > *").remove()[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var d3/selectAll[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m    (let [link (-> svg[0m
+  [36m42[0m  [36m                   (.append "g")[0m
+  [36m43[0m  [36m                   (.attr "class" "links")[0m
+  [36m44[0m  [36m                   (.selectAll "line")[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:60  column:28  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m56[0m  [36m(.enter)[0m
+  [36m57[0m  [36m(.append "circle")[0m
+  [36m58[0m  [36m(.attr "r" 10)[0m
+  [36m59[0m  [36m(.attr "fill" "red")[0m
+  [33m60[0m  [1m(.call (d3/drag)[0m
+  [0m  [0m  [33m        ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m61[0m  [36m       (.on "start" (fn [d] [0m
+  [36m62[0m  [36m                      (when-not (.active simulation)[0m
+  [36m63[0m  [36m                        (.restart simulation))[0m
+  [36m64[0m  [36m                      (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m                      (aset d "fy" (.-y d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:60  column:28  ----[0m
+
+  [1mUse of undeclared Var d3/drag[0m
+
+  [36m56[0m  [36m(.enter)[0m
+  [36m57[0m  [36m(.append "circle")[0m
+  [36m58[0m  [36m(.attr "r" 10)[0m
+  [36m59[0m  [36m(.attr "fill" "red")[0m
+  [33m60[0m  [1m(.call (d3/drag)[0m
+  [0m  [0m  [33m        ^--- Use of undeclared Var d3/drag[0m
+  [36m61[0m  [36m       (.on "start" (fn [d] [0m
+  [36m62[0m  [36m                      (when-not (.active simulation)[0m
+  [36m63[0m  [36m                        (.restart simulation))[0m
+  [36m64[0m  [36m                      (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m                      (aset d "fy" (.-y d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:67  column:59  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m63[0m  [36m                 (.restart simulation))[0m
+  [36m64[0m  [36m               (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m               (aset d "fy" (.-y d))))[0m
+  [36m66[0m  [36m(.on "drag" (fn [d][0m
+  [33m67[0m  [1m              (aset d "fx" (.-x d3/event))[0m
+  [0m  [0m  [33m                                ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m68[0m  [36m              (aset d "fy" (.-y d3/event))))[0m
+  [36m69[0m  [36m(.on "end" (fn [d][0m
+  [36m70[0m  [36m             (when-not (.active simulation)[0m
+  [36m71[0m  [36m               (.restart simulation))[0m
+  [36m72[0m  [36m             (aset d "fx" nil)[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:67  column:59  ----[0m
+
+  [1mUse of undeclared Var d3/event[0m
+
+  [36m63[0m  [36m                 (.restart simulation))[0m
+  [36m64[0m  [36m               (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m               (aset d "fy" (.-y d))))[0m
+  [36m66[0m  [36m(.on "drag" (fn [d][0m
+  [33m67[0m  [1m              (aset d "fx" (.-x d3/event))[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var d3/event[0m
+  [36m68[0m  [36m              (aset d "fy" (.-y d3/event))))[0m
+  [36m69[0m  [36m(.on "end" (fn [d][0m
+  [36m70[0m  [36m             (when-not (.active simulation)[0m
+  [36m71[0m  [36m               (.restart simulation))[0m
+  [36m72[0m  [36m             (aset d "fx" nil)[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:68  column:59  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m64[0m  [36m               (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m               (aset d "fy" (.-y d))))[0m
+  [36m66[0m  [36m(.on "drag" (fn [d][0m
+  [36m67[0m  [36m              (aset d "fx" (.-x d3/event))[0m
+  [33m68[0m  [1m              (aset d "fy" (.-y d3/event))))[0m
+  [0m  [0m  [33m                                ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m69[0m  [36m(.on "end" (fn [d][0m
+  [36m70[0m  [36m             (when-not (.active simulation)[0m
+  [36m71[0m  [36m               (.restart simulation))[0m
+  [36m72[0m  [36m             (aset d "fx" nil)[0m
+  [36m73[0m  [36m             (aset d "fy" nil)))))][0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:68  column:59  ----[0m
+
+  [1mUse of undeclared Var d3/event[0m
+
+  [36m64[0m  [36m               (aset d "fx" (.-x d))[0m
+  [36m65[0m  [36m               (aset d "fy" (.-y d))))[0m
+  [36m66[0m  [36m(.on "drag" (fn [d][0m
+  [36m67[0m  [36m              (aset d "fx" (.-x d3/event))[0m
+  [33m68[0m  [1m              (aset d "fy" (.-y d3/event))))[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var d3/event[0m
+  [36m69[0m  [36m(.on "end" (fn [d][0m
+  [36m70[0m  [36m             (when-not (.active simulation)[0m
+  [36m71[0m  [36m               (.restart simulation))[0m
+  [36m72[0m  [36m             (aset d "fx" nil)[0m
+  [36m73[0m  [36m             (aset d "fy" nil)))))][0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:76  column:33  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m72[0m  [36m                                 (aset d "fx" nil)[0m
+  [36m73[0m  [36m                                 (aset d "fy" nil)))))][0m
+  [36m74[0m  [36m[0m
+  [36m75[0m  [36m(.on simulation "tick" (fn [][0m
+  [33m76[0m  [1m                         (d3/selectAll ".links line")[0m
+  [0m  [0m  [33m                          ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m77[0m  [36m                         (.attr "x1" (fn [d] (.-x (.-source d))))[0m
+  [36m78[0m  [36m                         (.attr "y1" (fn [d] (.-y (.-source d))))[0m
+  [36m79[0m  [36m                         (.attr "x2" (fn [d] (.-x (.-target d))))[0m
+  [36m80[0m  [36m                         (.attr "y2" (fn [d] (.-y (.-target d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:76  column:33  ----[0m
+
+  [1mUse of undeclared Var d3/selectAll[0m
+
+  [36m72[0m  [36m                                 (aset d "fx" nil)[0m
+  [36m73[0m  [36m                                 (aset d "fy" nil)))))][0m
+  [36m74[0m  [36m[0m
+  [36m75[0m  [36m(.on simulation "tick" (fn [][0m
+  [33m76[0m  [1m                         (d3/selectAll ".links line")[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var d3/selectAll[0m
+  [36m77[0m  [36m                         (.attr "x1" (fn [d] (.-x (.-source d))))[0m
+  [36m78[0m  [36m                         (.attr "y1" (fn [d] (.-y (.-source d))))[0m
+  [36m79[0m  [36m                         (.attr "x2" (fn [d] (.-x (.-target d))))[0m
+  [36m80[0m  [36m                         (.attr "y2" (fn [d] (.-y (.-target d))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:82  column:33  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m78[0m  [36m                               (.attr "y1" (fn [d] (.-y (.-source d))))[0m
+  [36m79[0m  [36m                               (.attr "x2" (fn [d] (.-x (.-target d))))[0m
+  [36m80[0m  [36m                               (.attr "y2" (fn [d] (.-y (.-target d))))[0m
+  [36m81[0m  [36m[0m
+  [33m82[0m  [1m                               (d3/selectAll ".nodes circle")[0m
+  [0m  [0m  [33m                                ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m83[0m  [36m                               (.attr "cx" (fn [d] (.-x d)))[0m
+  [36m84[0m  [36m                               (.attr "cy" (fn [d] (.-y d))))))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:82  column:33  ----[0m
+
+  [1mUse of undeclared Var d3/selectAll[0m
+
+  [36m78[0m  [36m                               (.attr "y1" (fn [d] (.-y (.-source d))))[0m
+  [36m79[0m  [36m                               (.attr "x2" (fn [d] (.-x (.-target d))))[0m
+  [36m80[0m  [36m                               (.attr "y2" (fn [d] (.-y (.-target d))))[0m
+  [36m81[0m  [36m[0m
+  [33m82[0m  [1m                               (d3/selectAll ".nodes circle")[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var d3/selectAll[0m
+  [36m83[0m  [36m                               (.attr "cx" (fn [d] (.-x d)))[0m
+  [36m84[0m  [36m                               (.attr "cy" (fn [d] (.-y d))))))))[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m31[0m  [36m        nodes (clj->js (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (clj->js (:edges @app-state))][0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m    ;; Clear existing visualization[0m
+  [36m35[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mUse of undeclared Var d3/select[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var d3/select[0m
+  [36m31[0m  [36m        nodes (clj->js (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (clj->js (:edges @app-state))][0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m    ;; Clear existing visualization[0m
+  [36m35[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[31mFailed to compile build :dev from ["src"] in 0.387 seconds.[0m
+[36m----  Could not Compile  src/integraph/core.cljs  ----[0m
+
+  [1mfailed compiling file:src/integraph/core.cljs[0m
+
+[36m----  Compiler Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mNo such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- No such namespace: d3, could not locate d3.cljs, d3.cljc, or JavaScript source providing "d3"[0m
+  [36m31[0m  [36m        nodes (clj->js (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (clj->js (:edges @app-state))][0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m    ;; Clear existing visualization[0m
+  [36m35[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/integraph/core.cljs   line:30  column:14  ----[0m
+
+  [1mUse of undeclared Var d3/select[0m
+
+  [36m26[0m  [36m(defn create-visualization [][0m
+  [36m27[0m  [36m  (let [graph (.getElementById js/document "viz")[0m
+  [36m28[0m  [36m        width (.-clientWidth graph)[0m
+  [36m29[0m  [36m        height (.-clientHeight graph)[0m
+  [33m30[0m  [1m        svg (d3/select "#viz")[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var d3/select[0m
+  [36m31[0m  [36m        nodes (clj->js (:nodes @app-state))[0m
+  [36m32[0m  [36m        links (clj->js (:edges @app-state))][0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m    ;; Clear existing visualization[0m
+  [36m35[0m  [36m    (.selectAll svg "*").remove()[0m
+
+[36m----  Compiler Warning : Please see src/integraph/core.cljs  ----[0m
+[31mFailed to compile build :dev from ["src"] in 0.381 seconds.[0m
+[36m----  Could not Compile  src/integraph/core.cljs  ----[0m
+
+  [1mfailed compiling file:src/integraph/core.cljs[0m
+
+[36m----  Compiler Error : Please see src/integraph/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.823 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.716 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.681 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.507 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.486 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
+Compiling build :dev to "resources/public/js/compiled/integraph.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/integraph.js" in 0.583 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/integraph/core.js
